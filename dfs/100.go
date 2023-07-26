@@ -1,5 +1,6 @@
 package dfs
 
+// 100.相同的树
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 	if p == nil && q == nil {
 		return true

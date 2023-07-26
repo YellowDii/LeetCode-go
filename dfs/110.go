@@ -2,6 +2,7 @@ package dfs
 
 var localHigh = make(map[*TreeNode]int)
 
+// 110.平衡二叉树
 func isBalanced(root *TreeNode) bool {
 	// 方法1
 	if root == nil {

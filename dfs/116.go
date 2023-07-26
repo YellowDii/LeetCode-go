@@ -7,6 +7,7 @@ type Node struct {
 	Next  *Node
 }
 
+// 116.填充每个节点的下一个右侧节点指针
 func connect116(root *Node) *Node {
 	if root == nil {
 		return root
